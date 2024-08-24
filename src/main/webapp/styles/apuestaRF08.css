@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+.navbar-custom {
+    background-color: #003D71;
+}
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.match-info {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+.bet-section {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.bet-section h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.team {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 150px;
+}
+.team img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+.team p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    box-sizing: border-box;
+}
+.bet-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #003d80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.bet-button:hover {
+    background-color: #002b5c;
+}
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003d80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.back-button:hover {
+    background-color: #002b5c;
+}
+
